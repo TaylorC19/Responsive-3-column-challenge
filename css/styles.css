@@ -1,0 +1,114 @@
+body {
+  font-size: 15px;
+  background-color: hsl(0, 0%, 95%);
+  margin-left: 15%;
+  margin-right: 15%;
+
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+  margin-bottom: 25px;
+}
+
+p {
+  font-family: 'Lexend Deca', sans-serif;
+  color: hsla(0, 0%, 100%, 0.75);
+  padding-bottom: 50px;
+}
+
+/* Icons Sections */
+
+.icon {
+
+  margin: 25px 0;
+}
+
+@media (min-width:766px) {
+  .left-container {
+    border-top-left-radius: 9px;
+    border-bottom-left-radius: 9px;
+  }
+  .right-container {
+    border-top-right-radius: 9px;
+    border-bottom-right-radius: 9px;
+  }
+}
+
+@media (max-width:767px) {
+  .left-container {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+  }
+
+  .right-container {
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+  }
+}
+
+.col-md-4 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  margin-top: 7%;
+}
+
+.left-container {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.middle-container {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.right-container {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card {
+  border: none;
+}
+
+.card-footer {
+  border-top: none;
+background-color: inherit;
+}
+
+/* Button Section */
+
+.btn {
+  margin-bottom: 25px;
+  border-radius: 20px;
+}
+
+.left-button {
+  color: hsl(31, 77%, 52%);
+}
+
+.middle-button {
+  color: hsl(184, 100%, 22%);
+}
+
+.right-button {
+  color: hsl(179, 100%, 13%);
+}
+
+.btn:hover {
+  background-color: inherit;
+  color: hsl(0, 0%, 95%);
+}
+
+/* Attributes Sections */
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
